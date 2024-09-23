@@ -14,7 +14,7 @@ for (let i = 1; i <= 45; i++) {
   // Create a cell and insert the link into it
   const cell = row.insertCell();
   const link = document.createElement("a");
-  link.href = `/pages/page${i}.html`;
+  link.href = `./pages/page${i}.html`;
   link.textContent = `Page ${i}`;
 
   cell.appendChild(link);
